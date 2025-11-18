@@ -6,8 +6,8 @@ const AboutUs = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "102203718 - Geetansh Mohindru",
-      email: "gmohindru_be22@thapr.edu",
+      name: "102303989 - Devanshu singla",
+      email: "dsingla3_be23@thapr.edu",
     },
     {
       id: 2,
