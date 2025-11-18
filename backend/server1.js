@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 // JWT secret key
 const JWT_SECRET = process.env.JWT_SECRET;
 // MongoDB connection string for the new database
-const MONGO_URI = "mongodb+srv://singladevanshu925_db_user:N7Bg1ijQmuKt8z1a@cluster0.bjpdnbe.mongodb.net/?appName=Cluster0";
+const MONGO_URI = process.env.MONGO_URI;
 
 // Middleware
 app.use(cors());
